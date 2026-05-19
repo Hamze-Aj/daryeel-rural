@@ -19,7 +19,7 @@ export default function ContactClient() {
   };
 
   return (
-    <div className="pt-20">
+    <>
       {/* Hero */}
       <section className="relative py-24 bg-[#003087] overflow-hidden">
         <div className="absolute -top-20 -right-20 w-96 h-96 rounded-full bg-[#F2A900]/10 blur-3xl" />
@@ -222,6 +222,6 @@ export default function ContactClient() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

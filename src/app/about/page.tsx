@@ -67,11 +67,11 @@ const team = [
 
 export default function AboutPage() {
   return (
-    <div className="pt-20">
+    <>
       {/* Hero */}
       <section className="relative py-24 bg-[#003087] overflow-hidden">
         <div className="absolute inset-0 opacity-10"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1920&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
+          style={{ backgroundImage: "url('/images/aerial-campus-watertower.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="absolute -top-20 -right-20 w-96 h-96 rounded-full bg-[#F2A900]/10 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-[#F2A900]/20 border border-[#F2A900]/40 text-[#F2A900] text-xs font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-6">
@@ -174,7 +174,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="img-card rounded-2xl overflow-hidden h-96 shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=900&q=80"
+                  src="/images/students-group-discussion.jpeg"
                   alt="Shaykosh Boarding School"
                   width={900}
                   height={600}
@@ -284,6 +284,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

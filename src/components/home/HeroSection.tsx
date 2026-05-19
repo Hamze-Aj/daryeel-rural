@@ -6,12 +6,12 @@ export default function HeroSection() {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background image from Unsplash - African school children */}
+      {/* Background image - Shaykosh Boarding School aerial view */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?w=1920&q=80')",
+            "url('/images/aerial-campus-gate.jpeg')",
         }}
       />
       {/* Deep blue gradient overlay */}

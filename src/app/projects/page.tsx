@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <div className="pt-20">
+    <>
       {/* Hero */}
       <section className="relative py-24 bg-[#003087] overflow-hidden">
         <div className="absolute inset-0 opacity-10"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
+          style={{ backgroundImage: "url('/images/aerial-campus-watertower.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-[#F2A900]/20 border border-[#F2A900]/40 text-[#F2A900] text-xs font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-6">
             Programs &amp; Projects
@@ -93,14 +93,14 @@ export default function ProjectsPage() {
 
             <div className="space-y-4">
               <div className="img-card rounded-2xl overflow-hidden h-72 shadow-xl">
-                <Image src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=900&q=80" alt="Shaykosh school building" width={900} height={500} className="w-full h-full object-cover" />
+                <Image src="/images/aerial-campus-gate.jpeg" alt="Shaykosh school campus aerial view" width={900} height={500} className="w-full h-full object-cover" />
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="img-card rounded-xl overflow-hidden h-44 shadow-lg">
-                  <Image src="https://images.unsplash.com/photo-1613963933729-ab1a10f30f67?w=600&q=80" alt="Library" width={600} height={350} className="w-full h-full object-cover" />
+                  <Image src="/images/library-bookshelf.jpeg" alt="Library shelves with books" width={600} height={350} className="w-full h-full object-cover" />
                 </div>
                 <div className="img-card rounded-xl overflow-hidden h-44 shadow-lg">
-                  <Image src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=600&q=80" alt="Students studying" width={600} height={350} className="w-full h-full object-cover" />
+                  <Image src="/images/students-reading-classroom.jpeg" alt="Students reading in class" width={600} height={350} className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function ProjectsPage() {
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <div className="order-2 lg:order-1">
               <div className="img-card rounded-2xl overflow-hidden h-80 shadow-xl">
-                <Image src="https://images.unsplash.com/photo-1608342499268-aa5dcf1c6b59?w=900&q=80" alt="Girls in school" width={900} height={600} className="w-full h-full object-cover" />
+                <Image src="/images/girls-studying.jpeg" alt="Girls studying at Shaykosh" width={900} height={600} className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="order-1 lg:order-2">
@@ -194,10 +194,10 @@ export default function ProjectsPage() {
             </div>
             <div className="space-y-4">
               <div className="img-card rounded-2xl overflow-hidden h-72 shadow-xl">
-                <Image src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=900&q=80" alt="Tree planting" width={900} height={500} className="w-full h-full object-cover" />
+                <Image src="/images/compound-wall-trees.jpeg" alt="Trees planted on campus" width={900} height={500} className="w-full h-full object-cover" />
               </div>
               <div className="img-card rounded-2xl overflow-hidden h-52 shadow-xl">
-                <Image src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=900&q=80" alt="Green campus" width={900} height={400} className="w-full h-full object-cover" />
+                <Image src="/images/officials-vegetable-garden.jpeg" alt="School vegetable garden" width={900} height={400} className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ export default function ProjectsPage() {
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <div className="order-2 lg:order-1">
               <div className="img-card rounded-2xl overflow-hidden h-80 shadow-xl">
-                <Image src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=900&q=80" alt="Clean water facilities" width={900} height={600} className="w-full h-full object-cover" />
+                <Image src="/images/girls-water-tap.jpeg" alt="Girls using clean water tap" width={900} height={600} className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="order-1 lg:order-2">
@@ -287,6 +287,6 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

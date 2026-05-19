@@ -8,7 +8,7 @@ export default function CtaBanner() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1920&q=80')",
+            "url('/images/project-launch-community.jpeg')",
         }}
       />
       <div className="absolute inset-0 bg-[#003087]/88" />

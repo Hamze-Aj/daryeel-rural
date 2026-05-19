@@ -34,7 +34,7 @@ export default function MissionSection() {
             <div className="grid grid-cols-2 gap-4">
               <div className="img-card h-64 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1613963933729-ab1a10f30f67?w=600&q=80"
+                  src="/images/library-bookshelf.jpeg"
                   alt="Children studying in classroom"
                   width={600}
                   height={400}
@@ -43,7 +43,7 @@ export default function MissionSection() {
               </div>
               <div className="img-card h-64 rounded-2xl overflow-hidden shadow-xl mt-8">
                 <Image
-                  src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=600&q=80"
+                  src="/images/students-reading-classroom.jpeg"
                   alt="Somali children at school"
                   width={600}
                   height={400}
@@ -52,7 +52,7 @@ export default function MissionSection() {
               </div>
               <div className="img-card h-48 rounded-2xl overflow-hidden shadow-xl -mt-4">
                 <Image
-                  src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=600&q=80"
+                  src="/images/compound-wall-trees-2.jpeg"
                   alt="Tree planting"
                   width={600}
                   height={300}
@@ -61,7 +61,7 @@ export default function MissionSection() {
               </div>
               <div className="img-card h-48 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1608342499268-aa5dcf1c6b59?w=600&q=80"
+                  src="/images/girls-studying.jpeg"
                   alt="Girls in school uniform"
                   width={600}
                   height={300}

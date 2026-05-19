@@ -62,10 +62,10 @@ const ways = [
 
 export default function GetInvolvedPage() {
   return (
-    <div className="pt-20">
+    <>
       {/* Hero */}
       <section className="relative py-24 bg-[#003087] overflow-hidden">
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1920&q=80')", backgroundSize: "cover" }} />
+        <div className="absolute inset-0 opacity-15" style={{ backgroundImage: "url('/images/groundbreaking-ceremony.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative max-w-4xl mx-auto px-4 text-center">
           <span className="inline-block bg-[#F2A900]/20 border border-[#F2A900]/40 text-[#F2A900] text-xs font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-6">Take Action</span>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">Get <span className="gradient-text-gold">Involved</span></h1>
@@ -192,6 +192,6 @@ export default function GetInvolvedPage() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

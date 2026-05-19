@@ -7,34 +7,38 @@ export const metadata: Metadata = {
 };
 
 const images = [
-  { src: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80", caption: "Shaykosh Boarding School — Main Campus", category: "School" },
-  { src: "https://images.unsplash.com/photo-1613963933729-ab1a10f30f67?w=800&q=80", caption: "Renovated School Library", category: "Library" },
-  { src: "https://images.unsplash.com/photo-1608342499268-aa5dcf1c6b59?w=800&q=80", caption: "Girls in School Uniforms", category: "Girls" },
-  { src: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80", caption: "Tree Planting Initiative", category: "Environment" },
-  { src: "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80", caption: "Students Engaged in Learning", category: "Education" },
-  { src: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&q=80", caption: "New WASH Facilities", category: "WASH" },
-  { src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80", caption: "Students Studying Together", category: "Education" },
-  { src: "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=800&q=80", caption: "Greening the School Compound", category: "Environment" },
-  { src: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80", caption: "Community Gathering at School", category: "Community" },
-  { src: "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?w=800&q=80", caption: "Children at the Boarding School", category: "School" },
-  { src: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80", caption: "Girls in Class — Empowered to Learn", category: "Girls" },
-  { src: "https://images.unsplash.com/photo-1503676382389-4809596d5290?w=800&q=80", caption: "Fruit Trees Growing on Campus", category: "Environment" },
-  { src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=80", caption: "Young Students at Shaykosh", category: "School" },
-  { src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80", caption: "Field Coordinator on Site", category: "Community" },
-  { src: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80", caption: "Books for Every Student", category: "Library" },
-  { src: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&q=80", caption: "Classroom in Session", category: "Education" },
-  { src: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&q=80", caption: "Handwashing Station in Use", category: "WASH" },
-  { src: "https://images.unsplash.com/photo-1464052759348-a41b21bfbfb4?w=800&q=80", caption: "Community Members at School Event", category: "Community" },
+  { src: "/images/aerial-campus-gate.jpeg", caption: "Shaykosh Boarding School — Main Entrance", category: "School" },
+  { src: "/images/aerial-campus-watertower.jpeg", caption: "Campus Aerial View — Water Tower & Classrooms", category: "School" },
+  { src: "/images/girls-studying.jpeg", caption: "Girls Studying Together", category: "Girls" },
+  { src: "/images/library-bookshelf.jpeg", caption: "Renovated Library Shelves", category: "Library" },
+  { src: "/images/library-textbooks.jpeg", caption: "Textbooks for Every Student", category: "Library" },
+  { src: "/images/students-reading-classroom.jpeg", caption: "Students Reading in Class", category: "Education" },
+  { src: "/images/students-yellow-uniforms.jpeg", caption: "Students in Yellow Uniforms Studying", category: "Education" },
+  { src: "/images/students-studying-desks.jpeg", caption: "Students at Study Desks", category: "Education" },
+  { src: "/images/teacher-with-students.jpeg", caption: "Teacher with Students", category: "Education" },
+  { src: "/images/students-group-discussion.jpeg", caption: "Group Discussion in Class", category: "Education" },
+  { src: "/images/classroom-full-view.jpeg", caption: "Full Classroom in Session", category: "Education" },
+  { src: "/images/compound-wall-trees.jpeg", caption: "Boundary Wall & Trees Planted", category: "Environment" },
+  { src: "/images/compound-wall-trees-2.jpeg", caption: "Green Campus — 1,000+ Trees", category: "Environment" },
+  { src: "/images/officials-vegetable-garden.jpeg", caption: "School Vegetable Garden", category: "Environment" },
+  { src: "/images/girls-water-tap.jpeg", caption: "Girls Using Clean Water Facilities", category: "WASH" },
+  { src: "/images/girls-handwashing.jpeg", caption: "Handwashing Station in Use", category: "WASH" },
+  { src: "/images/solar-lighting-night.jpeg", caption: "Solar Lighting at Night", category: "School" },
+  { src: "/images/school-gate-teachers.jpeg", caption: "Teaching Staff at School Gate", category: "School" },
+  { src: "/images/project-launch-community.jpeg", caption: "Community Groundbreaking Ceremony", category: "Community" },
+  { src: "/images/groundbreaking-ceremony.jpeg", caption: "Foundation Stone Laying", category: "Community" },
+  { src: "/images/honorary-certificate-men.jpeg", caption: "Honorary Certificate Ceremony", category: "Community" },
+  { src: "/images/officials-campus-visit.jpeg", caption: "Officials Visiting the Campus", category: "Community" },
 ];
 
 const categories = ["All", "School", "Girls", "Library", "Education", "Environment", "WASH", "Community"];
 
 export default function GalleryPage() {
   return (
-    <div className="pt-20">
+    <>
       {/* Hero */}
       <section className="relative py-24 bg-[#003087] overflow-hidden">
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920&q=80')", backgroundSize: "cover" }} />
+        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "url('/images/aerial-campus-watertower.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative max-w-4xl mx-auto px-4 text-center">
           <span className="inline-block bg-[#F2A900]/20 border border-[#F2A900]/40 text-[#F2A900] text-xs font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-6">
             Photo Gallery
@@ -104,7 +108,7 @@ export default function GalleryPage() {
             <div className="bg-[#003087] rounded-2xl aspect-video flex items-center justify-center max-w-4xl mx-auto shadow-2xl overflow-hidden relative">
               <div
                 className="absolute inset-0 opacity-20"
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&q=80')", backgroundSize: "cover", backgroundPosition: "center" }}
+                style={{ backgroundImage: "url('/images/students-reading-classroom.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}
               />
               <div className="relative text-center">
                 <div className="w-20 h-20 rounded-full bg-[#F2A900] flex items-center justify-center mx-auto mb-4 shadow-2xl animate-pulse">
@@ -133,6 +137,6 @@ export default function GalleryPage() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

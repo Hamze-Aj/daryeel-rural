@@ -125,8 +125,8 @@ export default function ImpactHighlight() {
             </div>
             <div className="relative h-72 rounded-xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
-                alt="Students studying in library"
+                src="/images/aerial-campus-gate.jpeg"
+                alt="Shaykosh Boarding School aerial view"
                 fill
                 className="object-cover"
               />

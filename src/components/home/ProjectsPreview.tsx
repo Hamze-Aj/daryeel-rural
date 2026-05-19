@@ -8,7 +8,7 @@ const projects = [
     tag: "Flagship Project",
     title: "Shaykosh Boarding School",
     desc: "Renovating and upgrading Ethiopia's premier boarding school for pastoralist children — library, dormitories, boundary walls, main gate, and road construction.",
-    img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+    img: "/images/aerial-campus-gate.jpeg",
     color: "#003087",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     tag: "Empowerment",
     title: "Girls' Education",
     desc: "Providing uniforms, school supplies, safe separate sanitation facilities, and a nurturing environment to keep girls in school and thriving.",
-    img: "https://images.unsplash.com/photo-1608342499268-aa5dcf1c6b59?w=800&q=80",
+    img: "/images/girls-studying.jpeg",
     color: "#c98700",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     tag: "Sustainability",
     title: "Tree Planting & Greening",
     desc: "Over 1,000 fruit and shade trees planted — mango, papaya, avocado — with vegetable gardens, rainwater harvesting, and full compound greening.",
-    img: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80",
+    img: "/images/compound-wall-trees.jpeg",
     color: "#16a34a",
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     tag: "WASH",
     title: "Water, Sanitation & Hygiene",
     desc: "New modern restrooms for boys and girls, shower facilities, handwashing stations, and expanded water supply for the whole school campus.",
-    img: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&q=80",
+    img: "/images/girls-water-tap.jpeg",
     color: "#0891b2",
   },
 ];

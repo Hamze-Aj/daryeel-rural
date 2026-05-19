@@ -59,10 +59,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} scroll-smooth`}>
-      <body className="min-h-screen flex flex-col bg-white text-[#1a1a2e] antialiased">
+      <body className="min-h-screen bg-white text-[#1a1a2e] antialiased">
         <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <div className="flex min-h-screen flex-col">
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
