@@ -79,7 +79,7 @@ export default function AboutPage() {
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
             About{" "}
-            <span className="gradient-text-gold">Daryeel</span>
+            <span className="gradient-text-gold">Daryeel Rural Development</span>
           </h1>
           <p className="text-blue-100 text-xl max-w-3xl mx-auto leading-relaxed">
             Empowering Pastoralist Communities Through Education, Sustainability &amp; Dignity
