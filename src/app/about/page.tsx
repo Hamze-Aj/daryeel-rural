@@ -45,7 +45,7 @@ const team = [
   {
     name: "Eng. Khalifa",
     role: "Field Coordinator & Project Manager",
-    phone: "+251 912 090 972",
+    phone: "+251-704737473",
     location: "Kebri Dahar, Ethiopia",
     emoji: "👷",
   },
@@ -97,21 +97,26 @@ export default function AboutPage() {
                 A Diaspora-Led Organization with Deep Roots in the Somali Region
               </h2>
               <p className="text-gray-600 leading-relaxed mb-5">
-                <strong>Daryeel Rural Development For Action</strong> was founded by members of the
-                Somali diaspora community in <strong>Minneapolis, Minnesota</strong> — professionals,
-                educators, and community leaders who refused to watch their homeland&apos;s children
-                go without the education and dignity they deserve.
+                <strong>Daryeel Rural Development For Action (DRDA)</strong> was founded by a group
+                of committed local young engineers and scholars in close collaboration with the Somali
+                diaspora community in <strong>Minneapolis, Minnesota</strong>, as well as professionals,
+                educators, and community leaders in Canada, Europe, and Australia. The organization was
+                established by individuals who refused to stand by while children in their homeland were
+                deprived of the education, opportunities, and dignity they deserve.
               </p>
               <p className="text-gray-600 leading-relaxed mb-5">
-                The word <em className="text-[#003087] font-semibold">&quot;Daryeel&quot;</em> in
-                Somali means <strong>&quot;care&quot;</strong> or <strong>&quot;nurturing&quot;</strong>
-                — and that is exactly what we bring: genuine, sustained care for the communities of
-                the Somali Region of Ethiopia.
+                DRDA&apos;s mission is to strengthen the capacity of poor and vulnerable communities in
+                the Somali Region to withstand environmental and man-made shocks. The organization works
+                to improve the living conditions of vulnerable groups through interventions in education,
+                health, environmental protection, girls&apos; education, women&apos;s empowerment, and
+                food security.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                We work in direct partnership with the <strong>Kebri Dahar Education Bureau</strong>,
-                school principals, local government officials, community elders, and parents to ensure
-                every project is contextually appropriate, community-owned, and sustainably maintained.
+                DRDA works in close partnership with local government authorities, community elders, and
+                educational institutions including <strong>Shaykosh Boarding School</strong>. Collaboration
+                with school leadership, diaspora communities in Minneapolis, Europe, Canada, and Australia,
+                as well as local stakeholders, ensures that every project is culturally appropriate,
+                community-owned, sustainable, and effectively managed for long-term impact.
               </p>
               <div className="quote-block">
                 <p className="text-gray-700 text-base">
@@ -195,12 +200,12 @@ export default function AboutPage() {
                 <p>
                   It started with a conversation. In 2022, a group of Somali professionals in
                   Minneapolis asked a simple question: <em>&quot;What if we pooled our resources
-                  and actually fixed the school back home?&quot;</em>
+                    and actually fixed the school back home?&quot;</em>
                 </p>
                 <p>
                   Within months, Daryeel was incorporated, a field coordinator was appointed,
                   and the first project assessment at <strong className="text-[#003087]">Shaykosh
-                  Boarding School</strong> began. What they found was heartbreaking — no functioning
+                    Boarding School</strong> began. What they found was heartbreaking — no functioning
                   toilets for girls, a collapsed library ceiling, no perimeter wall, and 454
                   boarding students sleeping in overcrowded, unsafe dormitories.
                 </p>

@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const contactInfo = [
-  { icon: "📞", label: "Field Coordinator", value: "+251 912 090 972", sub: "Eng. Khalifa — Kebri Dahar", href: "tel:+251912090972" },
+  { icon: "📞", label: "Field Coordinator", value: "+251-704737473", sub: "Eng. Khalifa — Kebri Dahar", href: "tel:+251704737473" },
   { icon: "📧", label: "Email", value: "info@daryeel.org", sub: "We respond within 48 hours", href: "mailto:info@daryeel.org" },
   { icon: "📍", label: "Field Office", value: "Kebri Dahar", sub: "Somali Region, Ethiopia", href: null },
   { icon: "🌐", label: "Diaspora Office", value: "Minneapolis, MN", sub: "Minnesota, USA", href: null },
@@ -93,11 +93,10 @@ export default function ContactClient() {
                           key={opt.v}
                           type="button"
                           onClick={() => setForm(f => ({ ...f, type: opt.v }))}
-                          className={`py-2.5 px-3 rounded-xl text-sm font-semibold border-2 transition-all duration-200 ${
-                            form.type === opt.v
+                          className={`py-2.5 px-3 rounded-xl text-sm font-semibold border-2 transition-all duration-200 ${form.type === opt.v
                               ? "border-[#003087] bg-[#003087] text-white"
                               : "border-gray-200 text-gray-500 hover:border-[#003087]/30"
-                          }`}
+                            }`}
                         >
                           {opt.l}
                         </button>
@@ -174,11 +173,11 @@ export default function ContactClient() {
                 <p className="text-blue-200 text-sm leading-relaxed mb-6">
                   For urgent matters or project inquiries, contact our field coordinator directly:
                 </p>
-                <a href="tel:+251912090972" className="flex items-center gap-4 bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors mb-4">
+                <a href="tel:+251704737473" className="flex items-center gap-4 bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors mb-4">
                   <span className="text-3xl">📞</span>
                   <div>
                     <p className="text-white font-bold">Eng. Khalifa</p>
-                    <p className="text-[#F2A900] font-bold">+251 912 090 972</p>
+                    <p className="text-[#F2A900] font-bold">+251-704737473</p>
                     <p className="text-blue-300 text-xs">Field Coordinator, Kebri Dahar</p>
                   </div>
                 </a>

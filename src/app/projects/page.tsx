@@ -70,13 +70,14 @@ export default function ProjectsPage() {
               <h3 className="font-bold text-[#003087] mb-3">Major Achievements</h3>
               <ul className="space-y-2">
                 {[
+                  "Building siteworks & green areas: More than 1,200 m of main road entrance constructed for safe movement within the school compound. A 60-cm-high HCB wall and a 1,000-meter boundary wall finished with plastering and color painting for durability, security, and environmental friendliness.",
+                  "Improving education quality: The Somali Diaspora has played a significant role through targeted academic support, teacher incentives, and community engagement initiatives at Shaykosh Boarding School.",
                   "Library renovation and complete furnishing with new books",
                   "New separate latrines for boys and girls",
                   "Modern handwashing stations at all key points",
                   "Expanded water supply system and new water tanks",
                   "Landmark main entrance gate constructed",
                   "Perimeter boundary wall built",
-                  "Access road to school constructed",
                   "Solar-powered lighting in dormitories",
                   "University support teachers from Kebri Dahar",
                   "Teacher incentive programme to retain quality staff",
@@ -210,7 +211,7 @@ export default function ProjectsPage() {
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <div className="order-2 lg:order-1">
               <div className="img-card rounded-2xl overflow-hidden h-80 shadow-xl">
-                <Image src="/images/girls-water-tap.jpeg" alt="Girls using clean water tap" width={900} height={600} className="w-full h-full object-cover" />
+                <Image src="/images/WhatsApp Image 2026-05-16 at 10.08.25 PM.jpeg" alt="Girls using clean water tap" width={900} height={600} className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="order-1 lg:order-2">
@@ -246,7 +247,63 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* ── PROJECT 5: COMMUNITY DEVELOPMENT ── */}
+      {/* ── PROJECT 5: COMMUNITY MOSQUE ── */}
+      <section id="mosque" className="py-24 bg-[#f5f5f5] scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-14 items-center">
+            <div>
+              <div className="flex items-center gap-3 mb-2">
+                <span className="section-tag">🕌 Community Project</span>
+                <span className="inline-block bg-[#F2A900]/20 border border-[#F2A900]/50 text-[#F2A900] text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                  🔨 In Progress
+                </span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-[#003087] mt-2 mb-5 leading-tight">
+                Community Mosque Construction
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-5">
+                As part of Daryeel&apos;s commitment to holistic community development, we are supporting
+                the construction and renovation of a community mosque in the Kebri Dahar area. This
+                facility will serve as a vital centre of spiritual gathering, community cohesion, and
+                social support for families in the surrounding area.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                The mosque project is currently <strong className="text-[#003087]">ongoing</strong> —
+                construction is underway and progressing steadily with the support of the local community
+                and diaspora contributions. Upon completion, it will serve hundreds of worshippers from
+                the broader Kebri Dahar community.
+              </p>
+              <div className="space-y-4">
+                {[
+                  { icon: "🏗️", title: "Active Construction", desc: "Structural works are underway, with foundation and main walls progressing on schedule with community oversight." },
+                  { icon: "🤝", title: "Community-Led", desc: "Designed in direct consultation with local elders and community leaders to reflect the community's needs and values." },
+                  { icon: "🌍", title: "Diaspora-Funded", desc: "Supported through contributions from the Somali diaspora in Minneapolis, Canada, Europe, and Australia." },
+                  { icon: "📿", title: "Spiritual & Social Hub", desc: "Beyond worship, the mosque will serve as a gathering space for community events, education circles, and social support." },
+                ].map((item) => (
+                  <div key={item.title} className="flex gap-4 bg-white rounded-xl p-4 shadow-sm">
+                    <span className="text-2xl flex-shrink-0">{item.icon}</span>
+                    <div>
+                      <h4 className="text-[#003087] font-bold text-sm mb-1">{item.title}</h4>
+                      <p className="text-gray-500 text-xs leading-relaxed">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div className="img-card rounded-2xl overflow-hidden h-72 shadow-xl">
+                <Image src="/images/mosq.jpeg" alt="Community mosque construction progress" width={900} height={500} className="w-full h-full object-cover" />
+              </div>
+              <div className="img-card rounded-2xl overflow-hidden h-52 shadow-xl">
+                <Image src="/images/mosq1.jpeg" alt="Community mosque site view" width={900} height={400} className="w-full h-full object-cover" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── PROJECT 6: COMMUNITY DEVELOPMENT ── */}
       <section id="community" className="py-24 bg-[#003087] scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
