@@ -196,8 +196,8 @@ export default function ProjectsPage() {
               <div className="img-card rounded-2xl overflow-hidden h-72 shadow-xl">
                 <Image src="/images/compound-wall-trees.jpeg" alt="Trees planted on campus" width={900} height={500} className="w-full h-full object-cover" />
               </div>
-              <div className="img-card rounded-2xl overflow-hidden h-52 shadow-xl">
-                <Image src="/images/officials-vegetable-garden.jpeg" alt="School vegetable garden" width={900} height={400} className="w-full h-full object-cover" />
+              <div className="img-card rounded-2xl overflow-hidden h-100 shadow-xl">
+                <Image src="/images/planting-trees.jpg" alt="School vegetable garden" width={900} height={400} className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

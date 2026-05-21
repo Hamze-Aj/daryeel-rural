@@ -174,7 +174,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="img-card rounded-2xl overflow-hidden h-96 shadow-2xl">
                 <Image
-                  src="/images/students-group-discussion.jpeg"
+                  src="/images/girls-studying.jpeg"
                   alt="Shaykosh Boarding School"
                   width={900}
                   height={600}
