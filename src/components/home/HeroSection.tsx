@@ -38,9 +38,12 @@ export default function HeroSection() {
 
         {/* Sub heading */}
         <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-10 animate-fade-in-up delay-200">
-          Supporting quality education, girls&#39; empowerment, tree planting,
-          clean sanitation, and community development in the Somali Region of
-          Ethiopia through the{" "}
+          To advance sustainable community development in the Somali Region of Ethiopia,
+           Shaykosh Boarding School, in partnership with key stakeholders for  Promoting quality education,
+            Empowering girls and young women, Protecting the environment, Advancing green housing solutions,
+             improving access to clean water, sanitation, and hygiene (WASH) , 
+             Responding effectively to emergencies and Strengthening 
+             community development 
           <strong className="text-white">Shaykosh Boarding School</strong> and
           beyond.
         </p>

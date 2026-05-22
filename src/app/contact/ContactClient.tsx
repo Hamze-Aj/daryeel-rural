@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const contactInfo = [
-  { icon: "📞", label: "Field Coordinator", value: "+251-704737473", sub: "Eng. Khalifa — Kebri Dahar", href: "tel:+251704737473" },
+  { icon: "📞", label: "community volunteer, Project manager,", value: "+251-704737473", sub: "M. Khalifa — Kebri Dahar", href: "tel:+251704737473" },
   { icon: "📧", label: "Email", value: "info@daryeel.org", sub: "We respond within 48 hours", href: "mailto:info@daryeel.org" },
   { icon: "📍", label: "Field Office", value: "Kebri Dahar", sub: "Somali Region, Ethiopia", href: null },
   { icon: "🌐", label: "Diaspora Office", value: "Minneapolis, MN", sub: "Minnesota, USA", href: null },
@@ -176,9 +176,9 @@ export default function ContactClient() {
                 <a href="tel:+251704737473" className="flex items-center gap-4 bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors mb-4">
                   <span className="text-3xl">📞</span>
                   <div>
-                    <p className="text-white font-bold">Eng. Khalifa</p>
+                    <p className="text-white font-bold">M. Khalifa</p>
                     <p className="text-[#F2A900] font-bold">+251-704737473</p>
-                    <p className="text-blue-300 text-xs">Field Coordinator, Kebri Dahar</p>
+                    <p className="text-blue-300 text-xs">community volunteer, Project manager,, Kebri Dahar</p>
                   </div>
                 </a>
                 <a href="mailto:info@daryeel.org" className="flex items-center gap-4 bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">

@@ -43,8 +43,9 @@ const values = [
 
 const team = [
   {
-    name: "Eng. Khalifa",
-    role: "Field Coordinator & Project Manager",
+    name: "M. Khalifa",
+    role: "community volunteer, Project manager",
+     
     phone: "+251-704737473",
     location: "Kebri Dahar, Ethiopia",
     emoji: "👷",
