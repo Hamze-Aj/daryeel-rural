@@ -44,7 +44,15 @@ const values = [
 const team = [
   {
     name: "M. Khalifa",
-    role: "community volunteer",
+    role: "community volunteer, CEO",
+     
+    phone: "+251-704737473",
+    location: "Sheygosh, Ethiopia",
+    emoji: "👷",
+  },
+  {
+    name: "M. Khalifa",
+    role: "community volunteer, CEO",
      
     phone: "+251-704737473",
     location: "Sheygosh, Ethiopia",
