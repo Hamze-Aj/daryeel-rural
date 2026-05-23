@@ -51,12 +51,12 @@ const team = [
     emoji: "👷",
   },
   {
-    name: "M. Khalifa",
-    role: "community volunteer, CEO",
+    name: "Nassim Bachir",
+    role: "community volunteer, Program Cordinator",
      
-    phone: "+251-704737473",
-    location: "Sheygosh, Ethiopia",
-    emoji: "👷",
+    phone: "+1 (613) 297-1323",
+    location: "Canada ,
+    emoji: "👧",
   },
   {
     name: "Board of Directors",
