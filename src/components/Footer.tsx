@@ -111,7 +111,7 @@ export default function Footer() {
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
                 <div>
-                  <p className="text-blue-200 text-xs mb-0.5">community volunteer, Project manager,</p>
+                  <p className="text-blue-200 text-xs mb-0.5">community volunteer </p>
                   <a href="tel:+251912090972" className="text-white text-sm font-medium hover:text-[#F2A900] transition-colors">
                     M. Khalifa: +251-704737473
                   </a>
@@ -125,7 +125,7 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-200 text-xs mb-0.5">Email</p>
                   <a href="mailto:info@daryeel.org" className="text-white text-sm font-medium hover:text-[#F2A900] transition-colors">
-                    info@daryeel.org
+                    daryeelrural@gmail.com
                   </a>
                 </div>
               </li>
