@@ -3,8 +3,8 @@
 import { useState } from "react";
 
 const contactInfo = [
-  { icon: "📞", label: "community volunteer, Project manager,", value: "+251-704737473", sub: "M. Khalifa — sheygosh", href: "tel:+251704737473" },
-  { icon: "📧", label: "Email", value: "info@daryeel.org", sub: "We respond within 48 hours", href: "mailto:daryeelrural@gmail.com" },
+  { icon: "📞", label: "community volunteer, CEO,", value: "+251-704737473", sub: "M. Khalifa — sheygosh", href: "tel:+251704737473" },
+  { icon: "📧", label: "Email", value: "daryeelrural@gmail.com", sub: "We respond within 48 hours", href: "mailto:daryeelrural@gmail.com" },
   { icon: "📍", label: "Field Office", value: "sheygosh", sub: "Somali Region, Ethiopia", href: null },
   { icon: "🌐", label: "Diaspora Office", value: "Minneapolis, MN", sub: "Minnesota, USA", href: null },
 ];
@@ -178,14 +178,14 @@ export default function ContactClient() {
                   <div>
                     <p className="text-white font-bold">M. Khalifa</p>
                     <p className="text-[#F2A900] font-bold">+251-704737473</p>
-                    <p className="text-blue-300 text-xs">community volunteer, Project manager,, Kebri Dahar</p>
+                    <p className="text-blue-300 text-xs">community volunteer, CEO </p>
                   </div>
                 </a>
                 <a href="mailto:info@daryeel.org" className="flex items-center gap-4 bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
                   <span className="text-3xl">📧</span>
                   <div>
                     <p className="text-white font-bold">Email Us</p>
-                    <p className="text-[#F2A900] font-bold">info@daryeel.org</p>
+                    <p className="text-[#F2A900] font-bold">daryeelrural@gmail.com</p>
                     <p className="text-blue-300 text-xs">48-hour response time</p>
                   </div>
                 </a>
