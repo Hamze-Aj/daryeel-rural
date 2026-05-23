@@ -113,11 +113,11 @@ const beforeAfter = [
 
 const fundingItems = [
   { item: "New Kitchen Block", cost: "2,500,000 ETB", priority: "Critical" },
-  { item: "ICT Computer Lab", cost: "1,800,000 ETB", priority: "High" },
-  { item: "Girls Dormitory Extension", cost: "2,200,000 ETB", priority: "Critical" },
+  { item: "ICT Computer Lab", cost: "2,800,000 ETB", priority: "Critical" },
+  { item: "Girls Dormitory Extension", cost: "5,500,000 ETB", priority: "Critical" },
   { item: "New Classroom Blocks", cost: "1,440,000 ETB", priority: "High" },
-  { item: "Community Hall", cost: "600,000 ETB", priority: "Medium" },
-  { item: "Phase 2 Tree Planting", cost: "400,000 ETB", priority: "Medium" },
+  { item: "Community Hall", cost: "2,600,000 ETB", priority: "Medium" },
+  { item: "Phase 2 Tree Planting", cost: "650,000 ETB", priority: "Medium" },
 ];
 
 export default function ImpactPage() {
