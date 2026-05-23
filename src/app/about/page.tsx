@@ -55,7 +55,7 @@ const team = [
     role: "community volunteer, Program Cordinator",
      
     phone: "+1 (613) 297-1323",
-    location: "Canada ,
+    location: "Canada" ,
     emoji: "👧",
   },
   {
