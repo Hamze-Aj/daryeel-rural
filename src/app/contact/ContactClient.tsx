@@ -3,9 +3,9 @@
 import { useState } from "react";
 
 const contactInfo = [
-  { icon: "📞", label: "community volunteer, Project manager,", value: "+251-704737473", sub: "M. Khalifa — Kebri Dahar", href: "tel:+251704737473" },
-  { icon: "📧", label: "Email", value: "info@daryeel.org", sub: "We respond within 48 hours", href: "mailto:info@daryeel.org" },
-  { icon: "📍", label: "Field Office", value: "Kebri Dahar", sub: "Somali Region, Ethiopia", href: null },
+  { icon: "📞", label: "community volunteer, Project manager,", value: "+251-704737473", sub: "M. Khalifa — sheygosh", href: "tel:+251704737473" },
+  { icon: "📧", label: "Email", value: "info@daryeel.org", sub: "We respond within 48 hours", href: "mailto:daryeelrural@gmail.com" },
+  { icon: "📍", label: "Field Office", value: "sheygosh", sub: "Somali Region, Ethiopia", href: null },
   { icon: "🌐", label: "Diaspora Office", value: "Minneapolis, MN", sub: "Minnesota, USA", href: null },
 ];
 
