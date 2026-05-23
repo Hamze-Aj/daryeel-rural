@@ -195,7 +195,7 @@ export default function AboutPage() {
             <div>
               <span className="section-tag">Our Journey</span>
               <h2 className="text-3xl font-bold text-[#003087] mt-2 mb-6">
-                From Minneapolis Living Rooms to the Fields of Kebri Dahar
+                From Minneapolis Living Rooms to the Fields of sheygosh
               </h2>
               <div className="space-y-5 text-gray-600 leading-relaxed">
                 <p>
