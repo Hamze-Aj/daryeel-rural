@@ -113,7 +113,7 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-200 text-xs mb-0.5">community volunteer, Project manager,</p>
                   <a href="tel:+251912090972" className="text-white text-sm font-medium hover:text-[#F2A900] transition-colors">
-                    M. Khalifa: +251 912 090 972
+                    M. Khalifa: +251-704737473
                   </a>
                 </div>
               </li>
@@ -136,7 +136,7 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-200 text-xs mb-0.5">Location</p>
                   <p className="text-white text-sm font-medium">
-                    Kebri Dahar, Somali Region, Ethiopia
+                    sheygoash, Somali Region, Ethiopia
                   </p>
                 </div>
               </li>
