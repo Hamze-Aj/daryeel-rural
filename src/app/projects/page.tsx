@@ -39,7 +39,7 @@ export default function ProjectsPage() {
                 Shaykosh Boarding School
               </h2>
               <p className="text-gray-600 leading-relaxed mb-5">
-                Shaykosh Boarding School in <strong>Kebri Dahar, Somali Region</strong> is Daryeel&apos;s
+                Shaykosh Boarding School in <strong>sheygosh, Qoraxay Zone, Somali Region</strong> is Daryeel&apos;s
                 flagship project. Founded decades ago, the school serves students from seven zones across
                 the region — many of whom travel great distances from remote pastoralist communities.
               </p>
@@ -131,7 +131,7 @@ export default function ProjectsPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 Currently <strong className="text-[#003087]">62 girls</strong> are enrolled at Shaykosh
                 Boarding School — a number we are working to dramatically increase. Our goal is to reach
-                at least <strong className="text-[#003087]">30% female enrollment</strong> through targeted
+                at least <strong className="text-[#003087]">70% female enrollment</strong> through targeted
                 support and infrastructure improvements.
               </p>
               <div className="space-y-4">
