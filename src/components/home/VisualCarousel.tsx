@@ -101,6 +101,96 @@ const slides = [
     desc: "A full cohort of students learning together in a renovated classroom block with proper lighting and seating.",
     tag: "Education",
   },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.30 AM.jpeg",
+    cap: "Diaspora Community Gathering",
+    desc: "Daryeel supporters and diaspora community members gather to review progress and celebrate milestones for Shaykosh Boarding School.",
+    tag: "Community",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.30 AM (1).jpeg",
+    cap: "Community Leadership Meeting",
+    desc: "Community leaders and Daryeel partners convene to discuss the next phase of development for the Sheygosh region.",
+    tag: "Community",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.31 AM.jpeg",
+    cap: "Project Presentation & Review",
+    desc: "Key stakeholders review project plans and architectural drawings displayed at the community recognition event.",
+    tag: "Recognition",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.31 AM (1).jpeg",
+    cap: "Honorary Certificate Ceremony",
+    desc: "Shaykosh Boarding School presents an honorary certificate to a dedicated donor in recognition of transformative contributions to education.",
+    tag: "Recognition",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.31 AM (2).jpeg",
+    cap: "Honouring Community Champions",
+    desc: "A community champion receives an honorary certificate from Shaykosh Boarding School for Pastoralists — recognising years of dedication.",
+    tag: "Recognition",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.32 AM.jpeg",
+    cap: "Address to Diaspora Supporters",
+    desc: "A speaker addresses diaspora partners and community members, presenting the vision for the school's future with project plans visible behind.",
+    tag: "Community",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.32 AM (1).jpeg",
+    cap: "Leadership Delegation",
+    desc: "Senior community and organizational leaders meet to strengthen the partnership between the diaspora and local stakeholders.",
+    tag: "Leadership",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.32 AM (2).jpeg",
+    cap: "Diaspora Partnership Forum",
+    desc: "Distinguished guests from the Minneapolis diaspora and partnering communities attend the Daryeel recognition forum.",
+    tag: "Leadership",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.33 AM.jpeg",
+    cap: "Celebration of Impact",
+    desc: "Smiles all around as community members and Daryeel volunteers celebrate the tangible impact delivered to Shaykosh Boarding School.",
+    tag: "Community",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.33 AM (1).jpeg",
+    cap: "Distinguished Guests & Partners",
+    desc: "Distinguished guests including elders, scholars, and community leaders stand together — united in the mission to transform education.",
+    tag: "Community",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.34 AM.jpeg",
+    cap: "Certificate of Recognition",
+    desc: "A proud moment as another dedicated supporter receives an honorary certificate from the Shaykosh Boarding School for Pastoralists.",
+    tag: "Recognition",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.34 AM (1).jpeg",
+    cap: "Event Keynote Speaker",
+    desc: "A keynote speaker presents the organization's achievements and future roadmap to an audience of supporters and community leaders.",
+    tag: "Leadership",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.34 AM (2).jpeg",
+    cap: "Community Recognition Event",
+    desc: "A landmark community event celebrating Daryeel's accomplishments and honouring the individuals who made the transformation possible.",
+    tag: "Recognition",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.35 AM.jpeg",
+    cap: "Honoured Donor & Volunteers",
+    desc: "Dedicated volunteers and donors receive public recognition for their unwavering support of rural education in the Somali Region.",
+    tag: "Recognition",
+  },
+  {
+    src: "/images/WhatsApp Image 2026-05-24 at 11.19.35 AM (1).jpeg",
+    cap: "Closing Remarks",
+    desc: "The event concludes with heartfelt closing remarks, reaffirming the shared commitment to every child's right to quality education.",
+    tag: "Community",
+  },
 ];
 
 export default function VisualCarousel() {
@@ -225,11 +315,10 @@ export default function VisualCarousel() {
                 key={slide.cap}
                 onClick={() => goTo(i)}
                 aria-label={`View ${slide.cap}`}
-                className={`relative flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 transition-all duration-300 ${
-                  i === active
+                className={`relative flex-shrink-0 w-20 h-14 rounded-xl overflow-hidden border-2 transition-all duration-300 ${i === active
                     ? "border-[#F2A900] scale-105 shadow-lg shadow-[#F2A900]/30"
                     : "border-white/10 opacity-50 hover:opacity-90 hover:border-white/40"
-                }`}
+                  }`}
               >
                 <Image src={slide.src} alt={slide.cap} fill className="object-cover" />
               </button>
@@ -243,11 +332,10 @@ export default function VisualCarousel() {
                 key={i}
                 onClick={() => goTo(i)}
                 aria-label={`Go to slide ${i + 1}`}
-                className={`rounded-full transition-all duration-300 ${
-                  i === active
+                className={`rounded-full transition-all duration-300 ${i === active
                     ? "w-8 h-2 bg-[#F2A900]"
                     : "w-2 h-2 bg-white/25 hover:bg-white/50"
-                }`}
+                  }`}
               />
             ))}
           </div>
