@@ -181,7 +181,7 @@ export default function ProjectsPage() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { emoji: "🥭", title: "Fruit Trees", desc: "Mango, papaya, avocado providing nutrition and income" },
-                  { emoji: "🌿", title: "Vegetable Gardens", desc: "Fresh produce grown by students for school meals" },
+                  { emoji: "🌿", title: "Vegetable Gardens", desc: "onion, tomato, okra, pepper, cabbage, cucumber, watermelon, lettuce, and spinach to promote biodiversity and practical learning" },
                   { emoji: "💧", title: "Rainwater Harvesting", desc: "Collection systems reducing dependence on external water" },
                   { emoji: "☀️", title: "Solar Energy", desc: "Solar panels reducing carbon footprint and energy costs" },
                 ].map((i) => (

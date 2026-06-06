@@ -80,7 +80,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Projects */}
+          {/* Our Programs */}
           <div>
             <h3 className="text-[#F2A900] font-bold text-sm uppercase tracking-wider mb-5">
               Our Programs
@@ -113,7 +113,7 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-200 text-xs mb-0.5">community volunteer </p>
                   <a href="tel:+251912090972" className="text-white text-sm font-medium hover:text-[#F2A900] transition-colors">
-                    M. Khalifa: +251-704737473
+                    Eng. Khalifa: +251704737473
                   </a>
                 </div>
               </li>
