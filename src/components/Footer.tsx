@@ -113,7 +113,7 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-200 text-xs mb-0.5">community volunteer </p>
                   <a href="tel:+251912090972" className="text-white text-sm font-medium hover:text-[#F2A900] transition-colors">
-                    Eng. Khalifa: +251704737473
+                    Eng Hamza: +251704737473
                   </a>
                 </div>
               </li>

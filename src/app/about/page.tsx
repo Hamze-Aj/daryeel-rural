@@ -43,7 +43,7 @@ const values = [
 
 const team = [
   {
-    name: "M. Khalifa",
+    name: "Eng Hamza",
     role: "community volunteer, CEO",
      
     phone: "+251-704737473",
