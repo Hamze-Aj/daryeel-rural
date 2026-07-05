@@ -31,9 +31,9 @@ export default function HeroSection() {
 
         {/* Main heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6 animate-fade-in-up">
-          Building Hope,{" "}
-          <span className="gradient-text-gold">One Child</span>
-          <br className="hidden sm:block" /> at a Time
+          Daryeel,{" "}
+          <span className="gradient-text-gold">Rural</span>
+          <br className="hidden sm:block" /> Development 
         </h1>
 
         {/* Sub heading */}
